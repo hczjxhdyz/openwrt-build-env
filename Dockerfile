@@ -6,7 +6,7 @@ USER root
 
 ARG DEPENDS_LIST="sudo apt-utils build-essential clang flex bison g++ gawk gettext \
 git libncurses5-dev libssl-dev python3-distutils rsync unzip zlib1g-dev \
-file wget golang libelf-dev qemu-img"
+file wget golang libelf-dev qemu-utils"
 
 RUN apt-get update  && \
     # apt-get upgrade && \
